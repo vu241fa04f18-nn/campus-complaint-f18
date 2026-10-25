@@ -1,0 +1,31 @@
+{
+  "name": "campus-portal",
+  "version": "1.0.0",
+  "description": "CAMPUS — Complete College Student and Faculty Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node utils/seed.js",
+    "create-faculty": "node utils/createFaculty.js",
+    "test": "node test/verify_campus.js"
+  },
+  "keywords": [
+    "college-portal",
+    "student",
+    "faculty",
+    "campus",
+    "complaints",
+    "marks",
+    "attendance"
+  ],
+  "author": "CAMPUS Engineering Team",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
